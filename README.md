@@ -12,7 +12,7 @@
 >Repositorio utilizado:
 > https://github.com/davidjj76/nodepop-react-fundamentos
 
-[jsignoret.co](https://www.jsignoret.co)
+[jsignoret.co](https://jsignoret.co)
 
 <hr>
 
@@ -21,7 +21,7 @@
 >Repositorio utilizado:
 >https://github.com/jsignoretfdez/PracticaFundamentosWeb
 
-[sofa.jsignoret.co](https://www.sofa.jsignoret.co)
+[sofa.jsignoret.co](https://sofa.jsignoret.co)
 
 <hr>
 
@@ -30,7 +30,7 @@
 >Repositorio utilizado:
 >https://github.com/davidjj76/nodepop_web_avanzado
 
-[nodepop.jsignoret.co](https://www.nodepop.jsignoret.co)
+[nodepop.jsignoret.co](https://nodepop.jsignoret.co)
 
 <hr>
 
