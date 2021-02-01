@@ -52,6 +52,85 @@
 > base de datos MongoDB securizada y supervisor para que se inicie automáticamente
 > y se levante de nuevo si ocurre un problema con el servidor.
 
+## Peticiones HTTP
+
+### Login
+
+[POST] https://nodepop.jsignoret.co/apiv1/auth/login
+
+> Nos devuelve el token debemos pasarle los parametros en body x-form... usuario y contraseña
+> usuario: user@example.com password:1234
+> Nos devuelve un token.
+
+{
+    "ok": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDE3M2I2OTk5NDAyMDJjMzM3YTU1YTQiLCJpYXQiOjE2MTIyMTQ4ODEsImV4cCI6MTYxMjM4NzY4MX0.f7TLDcDf6d-R9cJ9kqCf9cKaGXUuHPkcRO7ixNJ3i8k"
+}
+
+<hr>
+
+### Listado Anuncios
+
+[GET] https://nodepop.jsignoret.co/apiv1/adverts
+
+> Nos devuelve la lista de anuncios, debemos pasarle en params el token obtenido y en Auth->Type Bearer Token y pasarle el token.
+
+{
+    "ok": true,
+    "result": {
+        "rows": [
+            {
+                "_id": "60173b699940202c337a55a3",
+                "name": "iPhone 3GS",
+                "sale": false,
+                "price": 5000,
+                "photo": "/images/anuncios/iphone.png",
+                "__v": 0,
+                "tags": [
+                    "lifestyle",
+                    "mobile"
+                ]
+            },
+            {
+                "_id": "60180ec54f1f55733ad03deb",
+                "photo": "/images/anuncios/450_1000.jpeg",
+                "name": "Ps5",
+                "sale": true,
+                "price": 500,
+                "__v": 0,
+                "tags": [
+                    "lifestyle",
+                    "work"
+                ]
+            },
+            {
+                "_id": "60180f384f1f55733ad03dec",
+                "photo": "/images/anuncios/descarga.jpeg",
+                "name": "Nintendo Switch",
+                "sale": false,
+                "price": 150,
+                "__v": 0,
+                "tags": [
+                    "work"
+                ]
+            },
+            {
+                "_id": "60180f864f1f55733ad03ded",
+                "photo": "/images/anuncios/HP-Portatiles-Profesionales-630x450.jpg",
+                "name": "Portatil HP 680Pro",
+                "sale": true,
+                "price": 250,
+                "__v": 0,
+                "tags": [
+                    "work"
+                ]
+            }
+        ]
+    }
+}
+
+<hr>
+
 ## Author
 
 👤 **Jose Manuel Signoret Fernández**
