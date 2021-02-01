@@ -5,6 +5,18 @@
 
 > Practica Despliegue de Apps en Nginx.
 
+## Importante
+
+>La app de Node y la de react están conectadas y las peticiones desde la app
+>de React se comunica con la App de node que hace las funciones de API.
+
+>Para realizar las pruebas del Backend pueden realizarse con PostMan u otro
+> programa similar o bien desde la app de React con uno de los 2 usuarios que
+> están creados como ejemplo 
+> usuario: user@example.com password: 1234 una vez dentro podremos consultar 
+> los productos de la base de datos en la que esta conectada la App de Node, podemos
+> crear un nuevo anuncio y que se guarde en la Base de Datos y borrarlo.
+
 ## Url's
 
 >App de React desplegada en Nginx conexión mediante protocolo seguro https.
@@ -39,18 +51,6 @@
 >El despligue se ha realizado sobre un servidor Nginx, se ha instalado una
 > base de datos MongoDB securizada y supervisor para que se inicie automáticamente
 > y se levante de nuevo si ocurre un problema con el servidor.
-
-## Importante
-
->La app de Node y la de react están conectadas y las peticiones desde la app
->de React se comunica con la App de node que hace las funciones de API.
-
->Para realizar las pruebas del Backend pueden realizarse con PostMan u otro
-> programa similar o bien desde la app de React con uno de los 2 usuarios que
-> están creados como ejemplo 
-> usuario: user@example.com password: 1234 una vez dentro podremos consultar 
-> los productos de la base de datos en la que esta conectada la App de Node, podemos
-> crear un nuevo anuncio y que se guarde en la Base de Datos y borrarlo.
 
 ## Author
 
